@@ -9,7 +9,7 @@ class Homescreen(GridLayout):
     def calc(self, user_input):
         try:
             ans = eval(user_input)
-            self.entry.text = str(ans)
+            self.display.text = str(ans)
         except:
             self.display.text = "Math Err"
     
